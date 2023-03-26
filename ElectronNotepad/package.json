@@ -1,0 +1,42 @@
+{
+  "name": "electron-notepad",
+  "version": "1.0.1",
+  "description": "A notepad App",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&&electron .",
+    "publish": "electron-builder --win"
+  },
+  "keywords": [
+    "Electron.JS",
+    "Notepad",
+    "Typescript",
+    "JS"
+  ],
+  "author": "maryaShiku",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.5",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1"
+  },
+	"build": {
+    "appId": "com.notepadshikopro.app",
+		"productName": "notepadshikopro",
+    "publish": {
+			"provider": "generic",
+			"url": "http://localhost/release"
+		},
+		"win": {
+			"target": "nsis"
+		},
+		"nsis": {
+			"oneClick": false,
+			"perMachine": true,
+			"allowToChangeInstallationDirectory": true
+		}
+	}
+}

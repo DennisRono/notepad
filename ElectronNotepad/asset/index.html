@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/style.css?">
+    <title>Notepad Pro</title>
+</head>
+
+<body>
+    <textarea onkeydown="events()" oninput="events()" class="form-control" id="editor" spellcheck="false" autofocus></textarea>
+    <footer class="footer"><p><span id="lines" class="lines"></span><span id="words"></span></p></footer>
+    <script src="./js/script.js"></script>
+    <script>
+        const events = () => {
+            let lines = document.getElementById('lines')
+            let cols = document.getElementById('words')
+            let editor = document.getElementById('editor').value
+            let lineCount = editor.split(/\r|\r\n|\n/).length
+            let wordCount = editor.match(/\S+/g).length
+            lines.innerHTML = 'Lines '+lineCount
+            cols.innerHTML = 'Words '+wordCount
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\notepad_vb.vbproj.AssemblyReference.cache
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\notepad_vb.notepad.resources
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\notepad_vb.vbproj.GenerateResource.cache
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\notepad_vb.GeneratedMSBuildEditorConfig.editorconfig
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\notepad_vb.AssemblyInfoInputs.cache
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\notepad_vb.AssemblyInfo.vb
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\notepad_vb.vbproj.CoreCompileInputs.cache
+F:\learn\class\notepad_vb\bin\Debug\net6.0-windows\notepad_vb.exe
+F:\learn\class\notepad_vb\bin\Debug\net6.0-windows\notepad_vb.deps.json
+F:\learn\class\notepad_vb\bin\Debug\net6.0-windows\notepad_vb.runtimeconfig.json
+F:\learn\class\notepad_vb\bin\Debug\net6.0-windows\notepad_vb.dll
+F:\learn\class\notepad_vb\bin\Debug\net6.0-windows\notepad_vb.pdb
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\notepad_vb.dll
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\refint\notepad_vb.dll
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\notepad_vb.pdb
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\notepad_vb.genruntimeconfig.cache
+F:\learn\class\notepad_vb\obj\Debug\net6.0-windows\ref\notepad_vb.dll
